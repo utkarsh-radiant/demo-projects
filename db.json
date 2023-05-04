@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "userdata": [
+    {
+      "id": 1,
+      "name": "John Doe 1",
+      "email": "johndoe@example.com",
+      "phone": "555-555-5555",
+      "address": "123 Main St"
+    },
+    {
+      "id": 2,
+      "name": "John Doe 2",
+      "email": "johndoe@example.com",
+      "phone": "555-555-5555",
+      "address": "123 Main St"
+    }
+  ]
+}
