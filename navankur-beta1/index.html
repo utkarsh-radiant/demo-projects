@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main-responsive.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div class="start-loader-bg">
+        <div class="start-loader"></div>
+    </div>
+    <!-- Preloader End -->
+    <!--========================================= Header start=================================== -->
+    <div class="top-bar">
+        <div class="container d-flex gap-3 text-white flex-wrap">
+            <div><i class="fa-solid fa-phone"></i> +91-9289139121</div>
+            <div><i class="fa-solid fa-envelope"></i>
+                contact@navankur.org</div>
+        </div>
+    </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-expand-lg theme-nav navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img width="100px" src="./assets/img/header-logo.png" alt="">
+            </a>
+            <button type="button" class="navbar-toggler border-0 shadow-none" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link nav-link-ltr  active ">Home</a>
+                    <a href="#" class="nav-item nav-link nav-link-ltr">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu theme-dropdown-menu">
+                            <p>Explore services</p>
+                            <a href="#" class="dropdown-item">Farm Input</a>
+                            <a href="#" class="dropdown-item">Agri consultancy</a>
+                            <a href="#" class="dropdown-item">Infrastructure</a>
+                            <a href="#" class="dropdown-item">Backward & Forward Linkage</a>
+                            <a href="#" class="dropdown-item">Product catalogue</a>
+                            <a href="#" class="dropdown-item">Buying & Selling Support</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-item nav-link nav-link-ltr">Career</a>
+                    <a href="#" class="nav-item nav-link nav-link-ltr">Contact</a>
+                    <a href="#" class="nav-item nav-link nav-link-ltr">Our Team</a>
+                </div>
+
+                <div class="navbar-nav nav-btns gap-3">
+                    <a href="#" class="nav-item  btn-filled">Our Experts</a>
+                    <a href="#" class="nav-item btn-outlined">Agri-tech Platform</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--========================================= Header end=================================== -->
+
+    <!--========================================= Hero section start=================================== -->
+    <section class="hero-section">
+        <div class="carousel home-slider slide carousel-fade" data-bs-ride="carousel" id="carouselExampleIndicators">
+            <div class="d-lg-block d-none">
+                <div class="carousel-indicators">
+                    <button aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                        data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators"
+                        type="button"></button>
+                </div>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active" data-bs-interval="4000"
+                    style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(./assets/img/home-banner1.png);">
+                    <div class="carousel-caption container position-relative">
+                        <h5 class="animated slideInLeft head1" style="animation-delay: 1s">We Feed</h5>
+                        <h5 class="animated slideInLeft head2" style="animation-delay: 1.5s">Your Future</h5>
+                        <p class="animated slideInLeft" style="animation-delay: 1.8s">Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000"
+                    style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(./assets/img/home-banner2.png);">
+                    <div class="carousel-caption container  position-relative">
+                        <h5 class="animated slideInLeft head1" style="animation-delay: 1s">We Feed</h5>
+                        <h5 class="animated slideInLeft head2" style="animation-delay: 1.5s">Your Future</h5>
+                        <p class="animated slideInLeft" style="animation-delay: 1.8s">Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================================= Hero section end=================================== -->
+
+    <!--========================================= About section start=================================== -->
+    <section class="about-company pt-10 pb-5">
+        <div class="container">
+            <div style="gap:5rem;" class="row align-items-center">
+                <div class="col-lg-5 col-md-12">
+                    <h4 class="subtitle-heading">About Company</h4>
+                    <h2>We envision to empower agriculture community</h2>
+                    <!-- <button>Explore more</button> -->
+                    <button type="reset" class="explore-btn" onclick="location.href='about.html'">
+                        Explore more
+                    </button>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <p>At Navankur, we offer comprehensive assistance to mid-scale farmers and institutional buyers by
+                        utilizing
+                        advanced AI technology. Our team of professionals carefully assesses your agriculture-related
+                        inquiries
+                        and provides customized solutions using real-time data. We cater to a wide range of agricultural
+                        topics,
+                        including agriculture information, agriculture industry, agriculture form, agriculture equipment
+                        list,
+                        agriculture diploma course, agriculture diploma, agriculture department up, and agriculture
+                        department odisha.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================================= About section end===================================== -->
+
+    <!--========================================= Counter section start================================= -->
+    <section id="counter" class="home-counter mt-0">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                    <div class="counter">
+                        <h2><span class="timer count-title count-number" data-to="15" data-speed="1500"></span><span
+                                class="count-title">+</span></h2>
+                        <p class="count-text ">Our Customer</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                    <div class="counter">
+                        <h2><span class="timer count-title count-number" data-to="10" data-speed="1500"></span><span
+                                class="count-title">K+</span></h2>
+                        <p class="count-text ">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                    <div class="counter">
+                        <h2><span class="timer count-title count-number" data-to="80" data-speed="1500"></span><span
+                                class="count-title">K+</span></h2>
+                        <p class="count-text ">Project Complete</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-3">
+                    <div class="counter">
+                        <h2><span class="timer count-title count-number" data-to="300" data-speed="1500"></span><span
+                                class="count-title">K+</span></h2>
+                        <p class="count-text ">Coffee With Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================================= Counter section end=================================== -->
+
+    <!--========================================= Agri Service section start================================= -->
+    <section class="agri-services pt-10">
+        <div class="container">
+            <div class="row g-3">
+                <div class="left-heading-div ps-0">
+                    <div class="agri-services-headings">
+                        <h4 class="subtitle-heading">About Navankur</h4>
+                        <h2>Our Agri Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-block d-none">
+                <div class="row">
+                    <div class="col-md-6 pp">
+                        <div class="img-ixt">
+                            <div>
+                                <h2>E-marketplace</h2>
+                                <p>Our platform serves as a marketplace for the agriculture sector, connecting farmers,
+                                    FPOs, wholesalers,
+                                    retailers, and traders to facilitate the buying and selling of agricultural products
+                                    in
+                                    a centralized
+                                    location. Additionally, we provide updates on agriculture news and new technology
+                                    advancements, as well as
+                                    information on agriculture loan schemes and agriculture land purchase loans to
+                                    assist
+                                    students interested in
+                                    agriculture projects.</p>
+                            </div>
+                        </div>
+                        <div class="img-ixt">
+                            <div>
+                                <h2>E-Auction</h2>
+                                <p>We established a system for bidding and transactions in Agri-Commodity procurement,
+                                    ensuring transparency at all stages and making it easier for traders to conduct
+                                    business. This mechanism can benefit various agricultural services, such as
+                                    agricultural
+                                    seed procurement and agricultural science research, as well as agricultural
+                                    financing
+                                    options like agricultural loans, agricultural land loans, and agricultural
+                                    insurance.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="img-ixt">
+                            <div>
+                                <h2>Advisory</h2>
+                                <p>We provide consultancy services through our Agri-Experts and empower the farmers by
+                                    providing real-time information. The farmers’ queries are stored in a database along
+                                    with their relevant solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="os__wrapper">
+                            <div class="os__text-container">
+                                <span class="os__text-item">
+                                    <img src="./assets/img/3.png" alt="">
+                                </span>
+                                <span class="os__text-item">
+                                    <img src="./assets/img/2.png" alt="">
+                                </span>
+                                <span class="os__text-item">
+                                    <img src="./assets/img/1.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-none d-block">
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <h2>E-marketplace</h2>
+                            <p>Our platform serves as a marketplace for the agriculture sector, connecting farmers,
+                                FPOs, wholesalers,
+                                retailers, and traders to facilitate the buying and selling of agricultural products in
+                                a centralized
+                                location. Additionally, we provide updates on agriculture news and new technology
+                                advancements, as well as
+                                information on agriculture loan schemes and agriculture land purchase loans to assist
+                                students interested in
+                                agriculture projects.</p>
+                        </div>
+                        <div class="text-center pb-5">
+                            <img src="./assets/img/3.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <h2>E-marketplace</h2>
+                            <p>Our platform serves as a marketplace for the agriculture sector, connecting farmers,
+                                FPOs, wholesalers,
+                                retailers, and traders to facilitate the buying and selling of agricultural products in
+                                a centralized
+                                location. Additionally, we provide updates on agriculture news and new technology
+                                advancements, as well as
+                                information on agriculture loan schemes and agriculture land purchase loans to assist
+                                students interested in
+                                agriculture projects.</p>
+                        </div>
+                        <div class="text-center pb-5">
+                            <img src="./assets/img/3.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <h2>E-marketplace</h2>
+                            <p>Our platform serves as a marketplace for the agriculture sector, connecting farmers,
+                                FPOs, wholesalers,
+                                retailers, and traders to facilitate the buying and selling of agricultural products in
+                                a centralized
+                                location. Additionally, we provide updates on agriculture news and new technology
+                                advancements, as well as
+                                information on agriculture loan schemes and agriculture land purchase loans to assist
+                                students interested in
+                                agriculture projects.</p>
+                        </div>
+                        <div class="text-center pb-5">
+                            <img src="./assets/img/3.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================================= Agri Service section end=================================== -->
+    <!--========================================= Our Service section start============================ -->
+    <section class="our-services mt-10">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="primary-heading">
+                        <h4 class="subtitle-heading">Our Services</h4>
+                        <h2><span>Services</span> We Offer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row service-inner">
+                <div class="col-lg-6">
+                    <div class="row align-items-center mb-4">
+                        <div class="col-sm-6 col-12">
+                            <div>
+                                <h3>Farm Input</h3>
+                                <p class="service-p">Providing ample varieties of farming products ranging from seeds,
+                                    bio-fertilizers,
+                                    bio-pesticides and machineries like drones to soil testing kits.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <div class="service-inner-content ser-left">
+                                <div class="content-overlay"></div>
+                                <img width="100%" src="./assets/img/service1.png" alt="">
+                                <div class="content-details fadeIn-bottom">
+                                    <a href="##">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-6 col-12">
+                            <div class="service-inner-content ser-right">
+                                <div class="content-overlay"></div>
+                                <img width="100%" src="./assets/img/service3.png" alt="">
+                                <div class="content-details fadeIn-bottom">
+                                    <a href="##">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <div>
+                                <h3 class="mt-3">Infrastructure</h3>
+                                <p class="service-p">Transforming traditional agriculture into a modern, commercial and
+                                    dynamic
+                                    agriculture system by providing services like cold storage, warehousing etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row align-items-center mb-4">
+                        <div class="col-sm-6 col-12">
+                            <div>
+                                <h3>Agri Consultancy</h3>
+                                <p class="service-p">Nurturing agrarian growth by inculcating knowledge, building
+                                    networks, and providing
+                                    financial blueprint to the agriculture and allied sector.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <div class="service-inner-content ser-left">
+                                <div class="content-overlay"></div>
+                                <img width="100%" src="./assets/img/service2.png" alt="">
+                                <div class="content-details fadeIn-bottom">
+                                    <a href="##">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-6 col-12">
+                            <div class="service-inner-content ser-right">
+                                <div class="content-overlay"></div>
+                                <img width="100%" src="./assets/img/service4.png" alt="">
+                                <div class="content-details fadeIn-bottom">
+                                    <a href="##">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <div>
+                                <h3 class="mt-3">Backward & Forward Linkage</h3>
+                                <p class="service-p">Nurturing agrarian growth by inculcating knowledge, building
+                                    networks, and providing
+                                    financial blueprint to the agriculture and allied sector.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--========================================= Our Service section end============================== -->
+
+    <!--========================================= key Activity section start============================ -->
+    <section class="key-activities mt-10">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="primary-heading">
+                        <h2><span>Key</span> Activities</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <img width="100%" src="./assets/img/key-activities.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================================= key Activity section end============================== -->
+
+    <!-- BLOG SECTION STARTS -->
+    <section class="blog-layout">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="blog-card">
+                        <div class="blog-img mb-5">
+                            <img src="./assets/img/blog-1.png" class="img-fluid" alt="">
+                            <div class="blog-dateTags">
+                                <h2>12</h2>
+                                <p>May, 22</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <ul class="meta-info">
+                                <li><a href="#"><i class="far fa-user-circle pe-1"></i> Subhash Kamboj</a></li>
+                            </ul>
+                            <h3>Can someone become a farmer</br> without land?</h3>
+                            <a class="read-more" href="#">Read more<i class="fa fa-arrow-right ps-2"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="blog-card">
+                        <div class="blog-img mb-5">
+                            <img src="./assets/img/blog-2.png" class="img-fluid" alt="">
+                            <div class="blog-dateTags">
+                                <h2>12</h2>
+                                <p>May, 22</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <ul class="meta-info">
+                                <li><a href="#"><i class="far fa-user-circle pe-1"></i> Achallaram Jatt</a></li>
+                            </ul>
+                            <h3>Transforming Agriculture through innovation</h3>
+                            <a class="read-more" href="#">Read more<i class="fa fa-arrow-right ps-2"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="blog-card">
+                        <div class="blog-img mb-5">
+                            <img src="./assets/img/blog-3.png" class="img-fluid" alt="">
+                            <div class="blog-dateTags">
+                                <h2>12</h2>
+                                <p>May, 22</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <ul class="meta-info">
+                                <li><a href="#"><i class="far fa-user-circle pe-1"></i> Mr. Ashish Aggarwal</a></li>
+                            </ul>
+                            <h3>A new venture of Navankur at Jaisalmer towards a better future</h3>
+                            <a class="read-more" href="#">Read more<i class="fa fa-arrow-right ps-2"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG SECTION ENDS -->
+
+    </div>
+    </div>
+    </section>
+    <!-- BLOG SECTION ENDS -->
+
+    <!-- MAP SECTION STARTS -->
+    <section class="ourpresence">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12">
+                    <div class="about--our-presence">
+                        <h2><span>Our</span>&nbsp;Presence</h2>
+                    </div>
+                    <div class="our-presence-content">
+                        <p>Our mission at Dehaat Company is to expand our presence across multiple states in India,
+                            while also aiming to penetrate the global market. We strive for sustainable agricultural
+                            development and growth, specifically in crop production. Our goal is to empower farmers by
+                            providing them with the tools and knowledge necessary to become self-reliant entrepreneurs.
+                            To support this mission, we promote the benefits of organic farming and utilize advanced
+                            technologies such as agriculture spray drones to improve crop yields and reduce costs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="map-image">
+                        <div style="position: relative">
+                            <img width="500px" src="./assets/img/map.png" class="img-fluid" alt="">
+                            <div class="delhi-pin">
+                                <div class='np-pin pin1'></div>
+                                <div class='np-pulse'></div>
+                                <div class='np-cardInfo'>
+                                    <p class="fw-bolder m-0">New Delhi</p>
+                                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="chandigarh-pin pin2">
+                                <div class='np-pin'></div>
+                                <div class='np-pulse'></div>
+                                <div class='np-cardInfo'>
+                                    <p class="fw-bolder m-0">Chandigarh</p>
+                                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="assam-pin">
+                                <div class='np-pin'></div>
+                                <div class='np-pulse'></div>
+                                <div class='np-cardInfo2'>
+                                    <p class="fw-bolder m-0">Assam</p>
+                                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- MAP SECTION ENDS -->
+    <!-- contact form starts here  -->
+    <section class="contact-us">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="primary-heading">
+                        <h2><span>Get</span> in Touch</h2>
+                        <p class="subheading-form">Send us you message and we will get back to you!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.0127924176018!2d77.18443257519026!3d28.569378575699318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1e7a852350c1%3A0xffde863ff786f13c!2sRadiant%20Infonet%20(P)%20Limited%20%7C%20Online%20Assessment%20Software!5e0!3m2!1sen!2sin!4v1684314520989!5m2!1sen!2sin"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="contact-form">
+                        <form id="contactform" class="contactform">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="first-name" name="first-name"
+                                        placeholder="First Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="last-name" name="last-name"
+                                        placeholder="Last Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" id="your-email" name="your-email"
+                                        placeholder="Email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" id="your-message" name="your-message"
+                                        placeholder="Message" rows="5" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+                                            <button type="submit" class="btn btn-brand w-100 send-btn">Send a
+                                                Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact form ends here  -->
+
+    <!-- footer starts here -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img width="150px" src="./assets/img/navankur-logo-footer.png"
+                                        alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Navankur introduces an AI based platform for the farmers and FPOs, helping them
+                                    get access to our services.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span class="fw-bold">Social Links</span>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in linkedn-bg"></i></a>
+                                <a href="#"><i class="fab fa-instagram insta-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Contact Us</h3>
+                            </div>
+                            <div class="footer-widget-content">
+                                <address>901 Madam Bhikaji Cama Bhawan, Bhikaji Cama Place,</br> New Delhi, Delhi 110066
+                                </address>
+                                <ul>
+                                    <li>Call Us:<a href="tel:9289139121" class="contact-links">+91-9289139121</a></li>
+                                    <li>Email Us:<a href="mailto:contact@navankur.org"
+                                            class="contact-links">contact@navankur.org</a></li>
+                                    <li>WhatsApp:<a target="_blank"
+                                            href="https://wa.me/919289139121?text=Hello ! I want to Know more about Navankur."
+                                            class="contact-links">+91-9289139121</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Sign Up for Email Updates</h3>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button>Subscribe</button>
+                                </form>
+                            </div>
+                            <div class="footer-text mb-25 my-3">
+                                <p>Sign up with your email address to receive news and updates</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright @2023 Navankur. All rights reserved.</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Our Experts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="./assets/lib/jquery.js"></script>
+    <script src="./assets/lib/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/scroller.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px) {
+  html,body{
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,body{
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 991px) {
+    .theme-dropdown-menu{
+        width: 100%;
+    }
+    .nav-link-ltr::before,.navbar-light .navbar-nav .nav-link.active::before{
+        display: none;
+    }
+    .nav-link {
+        padding: 10px !important;
+        margin: 0;
+        border-bottom: 2px solid #eee;
+    }
+    .nav-link:last-child{
+       margin-bottom: 1rem;
+    }
+    html,body{
+      font-size: 80%;
+    }
+    .np-pin:after {
+      margin: 5px 0 0 5px;
+  }
+  }
+
+
+  @font-face {
+    font-family:slider-text;
+    src: url("./assets/fonts/FarnhamDisplay-Bold.otf");
+  }
